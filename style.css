@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    /* background-color: rgb(219, 179, 179); */
+}
+.header{
+    height: 10vh;
+    width: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.header-logo{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+/* .header-menu{
+    display: flex;
+    flex-direction: row;
+    float: left;
+} */
+.header-logo h1{
+    color: black;
+}
+.header-logo, .menu-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    text-indent: 2rem;
+    margin-left: 20px;
+    color: gray;
+}
+.menu{
+    /* margin-right: 20px;    */
+    background: none;
+    border-style: none;
+    color: gray;
+}
+.menu-list, li{
+    margin-top: 5px;
+}
+.header-right{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 40px;
+    /* background-color: black; */
+}
+.header-btn, button{
+    margin-right: 20px;   
+    background: none;
+    border-style: none;
+    color: gray;
+}
+.login-btn{
+    
+}
+.reg-btn{
+    border: solid rgb(202, 202, 202);
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 80px;
+    height: 35px;
+}
+.content{
+    padding-top: 20px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+}
+.content-left{
+    padding-left: 60px;
+    padding-top: 40px;
+    width: 40%;
+    margin-left: 40px;
+}
+.content-left p{
+    font-size: 14px;
+    color: gray;
+    padding-right: 10px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-para{
+    width: 80%;
+    margin-top: 30px;
+}
+.content-right{
+    width: 60%;
+    /* background-color: black; */
+}
+.content-title h1{
+    font-size: 54px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.content-right, .right-img{
+    width: 350px;
+    height: 450px;
+    margin-left: 60px;
+}
+.learn-btn{
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.client{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 60px;
+}
+.client img{
+    width: 70px;
+    height: 20px;
+}
